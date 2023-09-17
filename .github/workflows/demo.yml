@@ -25,7 +25,7 @@ jobs:
         run: npm ci
       - name: Build website
         run: npm run build
-      - name: Upload artifacts #sample of artifact added upload
+      - name: Upload artifacts #sample of artifact added
         uses: actions/upload-artifact@v3
         with:
           name: dist-files
